@@ -1,4 +1,5 @@
 # Git
+###### Joao Silva
 
 ## Conceitos de versionamento
 - Histórico
