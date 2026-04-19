@@ -45,8 +45,11 @@ Fluxo do Git
 
 - $ git fetch --all (nesse momento estamos trabalhando na branch dev e antes de enviarmos algo para o master, usamos o comando git fetch --all para verificar se por acaso não existe nenhuma atualização na branch master)
 
+- $ git checkout -b nomedabranch (cria uma nova branch)
+- $ git checkout master (mudar de branch)
 ### Merge
 - Mescla de branches
 - $ git merge main
 - $ git checkout main
 - Se necessário usamos git push em caso do sistema dizer que é necessário fazer algum commit
+- $ git flow init (essa opção é usada para configurar as branches)
