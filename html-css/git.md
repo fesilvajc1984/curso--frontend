@@ -53,3 +53,27 @@ Fluxo do Git
 - $ git checkout main
 - Se necessário usamos git push em caso do sistema dizer que é necessário fazer algum commit
 - $ git flow init (essa opção é usada para configurar as branches)
+- voce poderá ter que resolver os conflitos manualmente
+
+### Pull Requests
+- mescla de branches no repositório
+- permite code review
+- O repositório resolve os conflitos automaticamente
+
+### Configurar GitFlow
+- $ git flow init
+- Which branch should be used for integration of the "next release"?
+- dev
+Branch name for "next release" development: [] dev
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix [] v
+
+- git flow feature start {nome-da-feature}
+
+
