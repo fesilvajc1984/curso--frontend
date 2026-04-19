@@ -27,6 +27,8 @@ Informação de alteração
 - git push (enviar alterações para o repositório)
 - git pull (puxar / trazer alterações do GitHub para sua máquina)
 
+- Uma regra entre os programadores é somente fazer o commit quando o programa estiver funcioando perfeitamente, pois se um outro desenvolvedor baixar uma cópia do meu código e ele estiver com erro, esse mesmo erro será replicado nos outros códigos, então não existe a necessidade de ficar fazendo commit toda vez que fizer uma alteração no código.
+
 ## GitFlow
 Fluxo do Git
 
@@ -40,3 +42,11 @@ Fluxo do Git
 - DOD -> Definition of Done (critérios de aceite)
 
 - versionamento 0.1.10 (o primeiro digito da esquerda, significa a versao inicial ou Beta. O digito do meio, significa alterações no código e por fim o ultimo digito significa correções de bugs no sistema.)
+
+- $ git fetch --all (nesse momento estamos trabalhando na branch dev e antes de enviarmos algo para o master, usamos o comando git fetch --all para verificar se por acaso não existe nenhuma atualização na branch master)
+
+### Merge
+- Mescla de branches
+- $ git merge main
+- $ git checkout main
+- Se necessário usamos git push em caso do sistema dizer que é necessário fazer algum commit
